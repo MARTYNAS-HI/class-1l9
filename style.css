@@ -1,0 +1,43 @@
+body {
+background-color: blueviolet ;   
+color: yellow ;    
+}
+
+h1
+{
+
+    color: dodgerblue;
+    background-color: darkviolet;
+}
+
+
+#show_sketch
+{
+ float:right;
+}
+
+canvas
+{
+border:5px solid white;
+border-radius:20px;
+animation-name: example;
+animation-duration: 4s;
+margin-top: 50px;
+animation-iteration-count: infinite;
+       
+    }
+@keyframes example{
+    
+    from {box-shadow: 1px 1px 38px #4dffd2;}    
+    to {box-shadow: 1px 1px 38px #f4716f;}    
+    
+}    
+    
+ p   
+  {
+    padding-top:10px;
+    font-size:25px;
+      
+
+}
+
